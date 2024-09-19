@@ -1,0 +1,37 @@
+baseURL: 'http://kieran.lowviz.com/'
+languageCode: 'en-au'
+title: 'Kieran Chau'
+theme: 'hugo-PaperMod-master'
+
+params:
+  homeInfoParams:
+    Title: 'Kieran Chau - lowviz.prod'
+    Content: ''  # Add content here if needed
+  socialIcons:
+    - name: 'email'
+      url: 'mailto:kieran.chau01@gmail.com'
+    - name: 'instagram'
+      url: 'https://www.instagram.com/lowviz_kieran/?hl=en/'
+  customCSS:
+    - "css/custom.css"
+  disableThemeFonts: true  # Optional: to disable PaperMod's default fonts
+  
+menu:
+  main:
+    - identifier: 'home'
+      name: 'Home'
+      url: '/'
+      weight: 10
+    - identifier: 'about'
+      name: 'About Me'
+      url: '/about/'
+      weight: 20
+    - identifier: 'underwaterprod'
+      name: 'Underwater Camerawork'
+      url: '/underwater/'
+      weight: 30
+    - identifier: 'archives'
+      name: 'Archives'
+      url: '/archives/'
+      weight: 40
+

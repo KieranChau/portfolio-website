@@ -1,0 +1,29 @@
+
+@font-face {
+    font-family: 'Futura';
+    src: url('/fonts/futurabook.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'Futura', sans-serif !important;
+}
+
+h1, h2, h3 {
+    font-family: 'Futura', sans-serif !important;
+    font-weight: bold !important;
+}
+
+.title-container {
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .title {
+    position: relative;
+    font-size: 3rem;
+    white-space: nowrap;
+    animation: swipe-left 1s ease-in-out forwards;
+  }
+  
